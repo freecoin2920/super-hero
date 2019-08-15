@@ -11,13 +11,17 @@ header{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
- h1, h2{
+ h1, h2, blockquote{
 	font-family: 'Lobster', cursive;
+
 }
+
+/*header styles*/
 
 header h1{
 	color: white;
 	font-size: 50px;
+
 }
 
 header img{
@@ -39,6 +43,10 @@ h2{
 	font-size: 35px;
 	color: red;
 	margin: 40px 0 10px;
+}
+
+h2.quotes{
+	color: royalblue;
 }
 
 a{
@@ -72,4 +80,17 @@ p.caption{
 	color: #999999;
 	font-style: italic;
 	margin-top: 0;
+}
+p{
+	font-family: 'Asap', sans-serif;
+}
+
+blockquote{
+	color: royalblue;
+	text-shadow: 0 4px 30px yellow;
+	font-style: italic;
+	padding: 50px;
+}
+div{
+	align-items: center;
 }
